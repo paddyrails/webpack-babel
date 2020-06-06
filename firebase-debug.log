@@ -1,0 +1,39 @@
+[debug] [2020-05-29T15:48:26.469Z] ----------------------------------------------------------------------
+[debug] [2020-05-29T15:48:26.471Z] Command:       C:\Program Files\nodejs\node.exe C:\paddy\research\react\webpack-babel\node_modules\firebase-tools\bin\firebase init
+[debug] [2020-05-29T15:48:26.471Z] CLI Version:   3.19.3
+[debug] [2020-05-29T15:48:26.471Z] Platform:      win32
+[debug] [2020-05-29T15:48:26.471Z] Node Version:  v12.16.1
+[debug] [2020-05-29T15:48:26.474Z] Time:          Fri May 29 2020 11:48:26 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-05-29T15:48:26.474Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2020-05-29T15:48:26.494Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2020-05-29T15:48:26.495Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\paddy\research\react\webpack-babel
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-05-29T15:48:32.815Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Fri May 29 2020 11:48:32 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-05-29T15:48:53.986Z] Error: connect ETIMEDOUT 104.197.85.31:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1137:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 104.197.85.31:443
